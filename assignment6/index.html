@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>assignment 6</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<h1>Assignment 6</h1>
+		<!-- task1 -->
+
+		<div class="task1 task">
+			<h2>Task#1: Show width and height; current location and a reload button</h2>
+			<p>The width and height should dynamically changed when you resize the window</p>
+			<p>Width: <span id="width"> </span></p>
+			<p>Height: <span id="height"> </span></p>
+			<p>Current X location: <span id="locationX"> </span></p>
+			<p>Current Y location: <span id="locationY"> </span></p>
+			<button type="button" onclick="refresh()">Reload Button</button>
+		</div>
+		
+		<hr>
+
+		<!-- task2 -->
+
+		<div class="task2 task">
+			<h2>Task#2: Manipulating DOM</h2>
+			<p>Instructions as described on the buttons</p>
+			<p id="P1">P1 with an id</p>
+			<p id="P2">P2 with an id</p>
+			<p id="P3">P3 with an id</p>
+
+
+			<button type="button" onclick="changeBackGroundColor()">Change to the color pink at first P tag</button>
+			<button type="button" onclick="appendText()">Append "Hello ITE220" at second P tag</button>
+			<button type="button" onclick="showAndHide()">Show and hide at third P tag</button>
+		</div>
+
+		<hr>
+
+		<!-- task3 -->
+		<div class="task3 task">
+			<h2>Task#3: Mouse and Click Event</h2>
+			<p>Show "On mouse over" when I mouse over the link; Show "On Mounse Out" when I mouse out the link; (do the same for Mouse Down and Mouse Up)</p>
+			<p>When Double Click, Show "On Double Click"</p>
+			<a href="#" id="event" >Show Event Here</a>
+		</div>
+
+
+		<script src="js/script.js" ></script>
+		
+	</body>
+</html>
